@@ -1,0 +1,11 @@
+<div>
+	<div>
+		<%= post.title %>
+	</div>
+
+	<div>
+		<%= raw truncate(post.description, :length => 50, :omission => ("..." + link_to("View more", post_page_path(post.id)))) %>
+	</div>
+
+	<hr />
+</div>

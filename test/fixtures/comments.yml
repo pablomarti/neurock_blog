@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user: 
+  comment: MyText
+  parent_id: 1
+  parent_kind: MyString
+
+two:
+  user: 
+  comment: MyText
+  parent_id: 1
+  parent_kind: MyString

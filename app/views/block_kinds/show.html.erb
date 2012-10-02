@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @block_kind.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @block_kind.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_block_kind_path(@block_kind) %> |
+<%= link_to 'Back', block_kinds_path %>
